@@ -1,3 +1,53 @@
-body{
-    background-color: red;;
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* common style */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background-color: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+}
+
+/* header */
+.header {
+    background-color: rgba(229, 84, 115, 0.1);
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 0px 200px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin: 32px 0px;
+}
+
+.header-img {
+    width: 635px;
+    margin-top: 50px;
 }
