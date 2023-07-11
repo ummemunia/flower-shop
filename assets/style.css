@@ -54,7 +54,7 @@ img {
     align-items: center;
     gap: 80px;
     /* need to fix */
-    margin: 0px 50px;
+    margin: 0px 200px;
 }
 
 .header-title {
@@ -198,7 +198,7 @@ img {
     margin-bottom: 162px;
 }
 
-.deals-off {
+.diff-text {
     color: #E55473;
 }
 
@@ -221,4 +221,73 @@ img {
 .insta-item {
     width: 342px;
     height: 396px;
+}
+
+/* latest deals section */
+.latest-deals {
+    background-image: url("image/Rectangle\ 9.png");
+    padding-top: 122px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 128px;
+}
+
+.latest-deals-head>.section-description {
+    margin-top: -15px;
+}
+
+.form-email {
+    text-align: center;
+    margin-top: 48px;
+    padding-bottom: 121px;
+}
+
+/* .email {} */
+
+.email input[type="email"] {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    padding: 0px 22px;
+    font-size: 20px;
+    margin-right: 16px;
+}
+
+.btn-subscribe {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+}
+
+/* footer */
+.footer-part {
+    background-color: #111010;
+    text-align: center;
+    color: #FFF;
+    padding: 128px 450px;
+    margin: 0;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    margin: 24px 0px 32px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
 }
