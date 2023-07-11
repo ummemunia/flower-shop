@@ -36,7 +36,7 @@ img {
     align-items: center;
     gap: 80px;
     /* need to fix */
-    margin: 0px 50px; 
+    margin: 0px 50px;
 }
 
 .header-title {
@@ -79,7 +79,7 @@ img {
     text-align: center;
     font-size: 18px;
     /* need to fix */
-    margin: 24px 450px 48px;
+    margin: 24px 0px 48px;
 
 }
 
@@ -169,4 +169,30 @@ img {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 86px;
+}
+
+/* deals section */
+.deals {
+    margin: 128px 0px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.deals-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+}
+
+.deals-left {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    width: 594px;
+    margin-top: 230px;
+    margin-bottom: 162px;
+}
+.deals-off{
+    color: #E55473;
 }
