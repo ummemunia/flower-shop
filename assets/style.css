@@ -266,6 +266,49 @@ img {
     border: 0;
 }
 
+/* member */
+
+.member{
+    background-image: url("image/member.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 128px;
+    padding: 122px 0px;
+}
+
+.member-head {
+    margin: 0px 450px;
+}
+.member-form {
+    margin: 0px 500px;
+}
+
+
+.user-info input[type="text"], 
+.user-info input[type="email"] {
+    width: 500px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    padding: 0px 22px;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.user-info input[type="radio"] {
+    background: #FFF;
+    padding: 0px 22px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.user-info input[type="button"] {
+    display: block;
+    /* margin-bottom: 48px; */
+}
 /* footer */
 .footer-part {
     background-color: #111010;

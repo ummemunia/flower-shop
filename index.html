@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Shop</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./assets/image/icon-flower.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
@@ -105,6 +106,31 @@
                         <input type="email" name="email" id="email" placeholder="Enter your email here...">
                     </label>
                     <input class="btn-subscribe" type="submit" value="Subscribe" />
+                </form>
+            </div>
+        </section>
+        <section class="member">
+            <div class="member-head">
+                <h3 class="section-title">Be The Member</h3>
+                <p class="section-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="member-form">
+                <form action="" class="user-info">
+                    <label for="user-name">
+                    <input type="text" name="user-name" id="user-name" placeholder="Enter your name...">
+                    </label>
+                    
+                    <label for="user-email">
+                    <input type="email" name="user-email" id="user-email" placeholder="Enter your email...">
+                    </label>
+                    
+                    <input type="radio" name="subscription" id="monthly-subscription" value="monthly-subscription">
+                    <label for="monthly-subscription">Monthly Subscription ($20)</label>
+                    
+                    <input type="radio" name="subscription" id="yearly-subscription" value="yearly-subscription">
+                    <label for="yearly-subscription">Yearly Subscription ($200)</label>
+
+                    <input type="button" value="Submit" class="btn-primary">
                 </form>
             </div>
         </section>
